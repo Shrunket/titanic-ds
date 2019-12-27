@@ -4,3 +4,15 @@ On April 15, 1912, during her maiden voyage, the widely considered “unsinkable
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 Explore the historical data to train the model using train.csv file and predict the model on the test data in test.csv file.
+
+train dataset contains following variables/attributes
+survival:	Survival	0 = No, 1 = Yes
+pclass:	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+sex:	Sex	
+Age:	Age in years	
+sibsp:	# of siblings / spouses aboard the Titanic	
+parch:	# of parents / children aboard the Titanic	
+ticket:	Ticket number	
+fare:	Passenger fare	
+cabin:	Cabin number	
+embarked:	Port of Embarkation
